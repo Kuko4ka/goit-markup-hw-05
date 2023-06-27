@@ -816,7 +816,7 @@ img {
 }
 
 .checkbox-container {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .checkbox-span {
@@ -844,6 +844,8 @@ img {
 }
 
 .modal-button {
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   min-width: 169px;
   height: 56px;
