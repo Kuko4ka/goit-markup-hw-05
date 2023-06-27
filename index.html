@@ -550,7 +550,6 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p class="modal-p">Leave your contacts and we will call you back</p>
         <button type="button" class="modal-close" data-modal-close>
           <svg width="8" height="8" class="modal-close-icon">
             <use href="./images/icons.svg#icon-closebutton"></use>
@@ -611,7 +610,7 @@
               id="user-privacy"
               name="user-privacy"
               value="true"
-              class="chexbox-hidden is-hidden"
+              class="chexbox-hidden visually-hidden"
               required
             />
 
@@ -631,6 +630,8 @@
         </form>
       </div>
     </div>
+
+    <p class="modal-p">Leave your contacts and we will call you back</p>
 
     <script src="./js/modal.js"></script>
   </body>
