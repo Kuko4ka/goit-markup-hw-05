@@ -832,7 +832,7 @@ img {
   fill: transparent;
 }
 
-.input[type="checkbox"]:checked > .checkbox-span {
+input[type="checkbox"]:checked + .checkbox-span {
   fill: var(--buttonbackground);
   background-color: var(--checked);
   border: none;
