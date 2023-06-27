@@ -816,7 +816,7 @@ img {
 }
 
 .checkbox-container {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .checkbox-span {
@@ -833,7 +833,7 @@ img {
   fill: transparent;
 }
 
-.checkbox-hidden:checked + .checkbox-span span {
+.checkbox-hidden:checked + .modal-form-div-label span {
   fill: var(--buttonbackground);
   background-color: var(--checked);
   border: none;
