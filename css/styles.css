@@ -8,6 +8,7 @@
   --buttonborder: #e7e9fc;
   --iconcolor: #8e8f99;
   --primarywhite: #ffffff;
+  --checked: #404bbf;
 }
 
 body {
@@ -813,6 +814,10 @@ img {
   border-color: #4d5ae5;
 }
 
+.checkbox-container {
+  margin-bottom: 24px;
+}
+
 .checkbox-span {
   width: 16px;
   height: 16px;
@@ -827,8 +832,10 @@ img {
   fill: transparent;
 }
 
-.input[type="checkbox"]:checked + label {
+.input[type="checkbox"]:checked + span {
   fill: var(--buttonbackground);
+  background-color: var(--checked);
+  border: none;
 }
 
 .modal-a {
