@@ -497,6 +497,10 @@ img {
   fill: var(--buttonbackground);
 }
 
+.footer-subscribe-container {
+  margin-left: 80px;
+}
+
 .footer-form {
   display: flex;
   gap: 24px;
