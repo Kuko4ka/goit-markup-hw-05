@@ -746,7 +746,6 @@ img {
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
-  gap: 8px;
 }
 
 .modal-form-div-label {
@@ -824,6 +823,7 @@ img {
 }
 
 .checkbox-span {
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -844,6 +844,7 @@ img {
 }
 
 .modal-a {
+  display: inline-block;
   color: var(--buttoncolor);
 }
 
